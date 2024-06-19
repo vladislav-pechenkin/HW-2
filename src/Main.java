@@ -28,5 +28,11 @@ public class Main {
         nevPaper -= 7639;
         System.out.println(nevPaper);
 
+        var friend = 19;
+        System.out.println(friend);
+        friend +=2;
+        System.out.println(friend);
+        friend /=7;
+        System.out.println(friend);
     }
 }
