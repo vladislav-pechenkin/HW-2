@@ -53,11 +53,23 @@ public class Main {
         var differenceBoxing = (boxerTwo - boxerOne);
         System.out.println("Разница между массами бойцов составляет " + differenceBoxing + " кг!");
 
-        var scalesOne = 65.0;
+        var scalesOne = 82.7;
         System.out.println(scalesOne);
-        var scalesTwo = 32.0;
+        var scalesTwo = 78.2;
         System.out.println(scalesTwo);
         var remains = (scalesOne % scalesTwo);
         System.out.println(remains);
+
+        var totalHours = 640.0;
+        System.out.println("Всего " + totalHours + " часов.");
+        var workingHours = 8.0;
+        System.out.println("Сотрудник посвящает работе " + workingHours + " часов.");
+        var totalEmployees = totalHours / workingHours;
+        System.out.println("Всего в компании " + totalEmployees + " сотрудников.");
+        totalEmployees += 94;
+        System.out.println(totalEmployees);
+        var divisionHours = totalHours / totalEmployees;
+        System.out.println("Если в компонии работает " + totalEmployees + " сотрудника, то всего " + divisionHours +" часов работы может быть поделено между ними.");
+
     }
 }
