@@ -52,5 +52,12 @@ public class Main {
         System.out.println("Общая масса двух боксеров составляет " + totalWeight + " кг!");
         var differenceBoxing = (boxerTwo - boxerOne);
         System.out.println("Разница между массами бойцов составляет " + differenceBoxing + " кг!");
+
+        var scalesOne = 65.0;
+        System.out.println(scalesOne);
+        var scalesTwo = 32.0;
+        System.out.println(scalesTwo);
+        var remains = (scalesOne % scalesTwo);
+        System.out.println(remains);
     }
 }
